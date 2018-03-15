@@ -3,43 +3,30 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
+
 namespace OOPBasicApp
 {
     class StreamEncoder
     {
         private TextEncoder textEncoder;
-        private string inputPath;
-        private string outputPath;
+        private TextReader textReader;
 
-        public StreamEncoder(string inputPath, string outputPath)
+        public StreamEncoder(TextEncoder textEncoder, TextReader textReader)
         {
-            this.inputPath = inputPath;
-            this.outputPath = outputPath;
+            this.textEncoder = textEncoder;
+            this.textReader = textReader;            
         }
-      
-        public void Encode()
-        {
-            textEncoder = new TextEncoder();
-            if (File.Exists(inputPath))
-            {
-                string text = System.IO.File.ReadAllText(inputPath);
-                byte[] result = textEncoder.Encode(text);
-                
 
-                using (FileStream stream = new FileStream(outputPath, FileMode.Create))
-                {
-                    using (BinaryWriter writer = new BinaryWriter(stream))
-                    {
-                        writer.Write(result);
-                        writer.Close();
-                    }
-                }
-            }
-            else
+        public void Encode(BinaryWriter writer)
+        {
+            string inputText = textReader.ReadLine();
+            while (!String.IsNullOrEmpty(inputText))
             {
-                Console.WriteLine("File doesnt exist!");
-            }
-        }
-        
+                byte[] encodedBytes = textEncoder.Encode(inputText);
+                writer.Write(encodedBytes);
+                inputText = textReader.ReadLine();
+            } 
+        }       
+
     }
 }

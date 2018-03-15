@@ -6,13 +6,17 @@ namespace OOPBasicApp
 {
     class TextEncoder
     {
-        private ByteEncoder byteEncoder;
+        private IEncoder encoder;
+
+        public TextEncoder(IEncoder encoder)
+        {
+            this.encoder = encoder;
+        }
 
         public byte[] Encode(string inputString)
         {
-            byteEncoder = new ByteEncoder();
             byte[] bytes = Encoding.ASCII.GetBytes(inputString);
-            return byteEncoder.Encode(bytes);
+            return encoder.Encode(bytes);
         }
     }
 }
