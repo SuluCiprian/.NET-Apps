@@ -8,23 +8,15 @@
     ".NETCoreApp,Version=v2.0": {
       "OOPBasicApp/1.0.0": {
         "dependencies": {
-          "Algorithms": "1.0.0"
+          "OOPBasics.Shared": "1.0.0"
         },
         "runtime": {
           "OOPBasicApp.dll": {}
         }
       },
-      "Algorithms/1.0.0": {
-        "dependencies": {
-          "PluginInterface": "1.0.0"
-        },
+      "OOPBasics.Shared/1.0.0": {
         "runtime": {
-          "Algorithms.dll": {}
-        }
-      },
-      "PluginInterface/1.0.0": {
-        "runtime": {
-          "PluginInterface.dll": {}
+          "OOPBasics.Shared.dll": {}
         }
       }
     }
@@ -35,12 +27,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Algorithms/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "PluginInterface/1.0.0": {
+    "OOPBasics.Shared/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

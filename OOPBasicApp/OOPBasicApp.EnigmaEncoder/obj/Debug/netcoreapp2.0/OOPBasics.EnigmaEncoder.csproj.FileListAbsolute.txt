@@ -8,3 +8,4 @@ C:\Users\ciprian.sulu\source\repos\OOPBasicApp\OOPBasicApp.EnigmaEncoder\obj\Deb
 C:\Users\ciprian.sulu\source\repos\OOPBasicApp\OOPBasicApp.EnigmaEncoder\obj\Debug\netcoreapp2.0\OOPBasics.EnigmaEncoder.AssemblyInfo.cs
 C:\Users\ciprian.sulu\source\repos\OOPBasicApp\OOPBasicApp.EnigmaEncoder\obj\Debug\netcoreapp2.0\OOPBasics.EnigmaEncoder.dll
 C:\Users\ciprian.sulu\source\repos\OOPBasicApp\OOPBasicApp.EnigmaEncoder\obj\Debug\netcoreapp2.0\OOPBasics.EnigmaEncoder.pdb
+C:\Users\ciprian.sulu\source\repos\OOPBasicApp\OOPBasicApp.EnigmaEncoder\obj\Debug\netcoreapp2.0\OOPBasics.EnigmaEncoder.csprojResolveAssemblyReference.cache

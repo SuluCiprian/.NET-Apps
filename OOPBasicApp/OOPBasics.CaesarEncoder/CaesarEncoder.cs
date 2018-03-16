@@ -6,7 +6,7 @@ using OOPBasics.Shared;
 
 namespace Algorithms
 {
-    public class CaesarEncoder: IEncoder
+    class CaesarEncoder: IEncoder
     {
         private static readonly byte offset = 98;
       

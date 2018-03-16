@@ -5,9 +5,9 @@ using OOPBasics.Shared;
 
 namespace OOPBasics.EnigmaEncoder
 {
-    class EnigmaPlugin : IPlugin
+    public class EnigmaPlugin : IPlugin
     {
-        private string name;
+        private string name = "Enigma";
         private byte startRange;
         private byte endRange;
         private byte randomValue;

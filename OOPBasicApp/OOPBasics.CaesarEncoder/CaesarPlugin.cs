@@ -5,9 +5,9 @@ using OOPBasics.Shared;
 using Algorithms;
 namespace OOPBasics.CaesarEncoder
 {
-    class CaesarPlugin : IPlugin
+    public class CaesarPlugin : IPlugin
     {
-        private string name;
+        private string name = "Caesar";
         List<string> arguments = new List<string>();
         public IEncoder GetEncoder()
         {

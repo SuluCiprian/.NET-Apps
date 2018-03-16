@@ -5,7 +5,7 @@ using OOPBasics.Shared;
 
 namespace Algorithms
 {
-    public class EnigmaEncoder : IEncoder
+    class EnigmaEncoder : IEncoder
     {
         private byte startRange;
         private byte endRange;

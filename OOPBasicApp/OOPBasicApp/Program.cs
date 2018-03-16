@@ -17,22 +17,12 @@ namespace OOPBasicApp
             //Algorithms.CaesarEncoder numberEncoder = new Algorithms.CaesarEncoder();
 
             PluginsManager dla = new PluginsManager();
-            //PluginInterface.IEncoder encoder = dla.LoadAssembly(path);
-
-            Type[] algorithms = dla.GetTypes(path);
-
-            //PluginInterface.IEncoder encoder = dla.LoadAssemblyByName(algorithms, "CaesarEncoder");
-
-            PluginInterface.IEncoder encoder = null;
-            foreach (Type item in algorithms)
+            dla.LoadPlugins();
+            foreach (var plugin in dla.Plugins)
             {
-                if (!item.IsClass) continue;
-                if (item.GetInterfaces().Contains(typeof(PluginInterface.IEncoder)))
-                {
-                     encoder = (PluginInterface.IEncoder)Activator.CreateInstance(item);
-                }
+                Console.WriteLine(plugin.GetName());
             }
-
+           /*
             TextEncoder textEncoder = new TextEncoder(encoder);
 
             TextReader reader = GetInputTextReader();
@@ -43,6 +33,7 @@ namespace OOPBasicApp
 
             reader.Close();
             writer.Close();
+            */
         }
         public static TextReader GetInputTextReader()
         {

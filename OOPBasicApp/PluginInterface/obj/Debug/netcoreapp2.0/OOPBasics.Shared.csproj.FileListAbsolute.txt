@@ -1,7 +1,6 @@
 C:\Users\ciprian.sulu\source\repos\OOPBasicApp\PluginInterface\bin\Debug\netcoreapp2.0\OOPBasics.Shared.deps.json
 C:\Users\ciprian.sulu\source\repos\OOPBasicApp\PluginInterface\bin\Debug\netcoreapp2.0\OOPBasics.Shared.dll
 C:\Users\ciprian.sulu\source\repos\OOPBasicApp\PluginInterface\bin\Debug\netcoreapp2.0\OOPBasics.Shared.pdb
-C:\Users\ciprian.sulu\source\repos\OOPBasicApp\PluginInterface\obj\Debug\netcoreapp2.0\OOPBasics.Shared.csprojResolveAssemblyReference.cache
 C:\Users\ciprian.sulu\source\repos\OOPBasicApp\PluginInterface\obj\Debug\netcoreapp2.0\OOPBasics.Shared.csproj.CoreCompileInputs.cache
 C:\Users\ciprian.sulu\source\repos\OOPBasicApp\PluginInterface\obj\Debug\netcoreapp2.0\OOPBasics.Shared.AssemblyInfoInputs.cache
 C:\Users\ciprian.sulu\source\repos\OOPBasicApp\PluginInterface\obj\Debug\netcoreapp2.0\OOPBasics.Shared.AssemblyInfo.cs

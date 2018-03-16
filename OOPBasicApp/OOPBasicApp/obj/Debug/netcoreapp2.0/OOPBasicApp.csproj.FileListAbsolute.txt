@@ -9,7 +9,5 @@ C:\Users\ciprian.sulu\source\repos\OOPBasicApp\OOPBasicApp\obj\Debug\netcoreapp2
 C:\Users\ciprian.sulu\source\repos\OOPBasicApp\OOPBasicApp\obj\Debug\netcoreapp2.0\OOPBasicApp.AssemblyInfo.cs
 C:\Users\ciprian.sulu\source\repos\OOPBasicApp\OOPBasicApp\obj\Debug\netcoreapp2.0\OOPBasicApp.dll
 C:\Users\ciprian.sulu\source\repos\OOPBasicApp\OOPBasicApp\obj\Debug\netcoreapp2.0\OOPBasicApp.pdb
-C:\Users\ciprian.sulu\source\repos\OOPBasicApp\OOPBasicApp\bin\Debug\netcoreapp2.0\Algorithms.dll
-C:\Users\ciprian.sulu\source\repos\OOPBasicApp\OOPBasicApp\bin\Debug\netcoreapp2.0\PluginInterface.dll
-C:\Users\ciprian.sulu\source\repos\OOPBasicApp\OOPBasicApp\bin\Debug\netcoreapp2.0\Algorithms.pdb
-C:\Users\ciprian.sulu\source\repos\OOPBasicApp\OOPBasicApp\bin\Debug\netcoreapp2.0\PluginInterface.pdb
+C:\Users\ciprian.sulu\source\repos\OOPBasicApp\OOPBasicApp\bin\Debug\netcoreapp2.0\OOPBasics.Shared.dll
+C:\Users\ciprian.sulu\source\repos\OOPBasicApp\OOPBasicApp\bin\Debug\netcoreapp2.0\OOPBasics.Shared.pdb
