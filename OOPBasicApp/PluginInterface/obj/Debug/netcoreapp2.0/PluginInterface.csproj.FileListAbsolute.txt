@@ -1,0 +1,8 @@
+C:\Users\ciprian.sulu\source\repos\OOPBasicApp\PluginInterface\bin\Debug\netcoreapp2.0\PluginInterface.deps.json
+C:\Users\ciprian.sulu\source\repos\OOPBasicApp\PluginInterface\bin\Debug\netcoreapp2.0\PluginInterface.dll
+C:\Users\ciprian.sulu\source\repos\OOPBasicApp\PluginInterface\bin\Debug\netcoreapp2.0\PluginInterface.pdb
+C:\Users\ciprian.sulu\source\repos\OOPBasicApp\PluginInterface\obj\Debug\netcoreapp2.0\PluginInterface.csproj.CoreCompileInputs.cache
+C:\Users\ciprian.sulu\source\repos\OOPBasicApp\PluginInterface\obj\Debug\netcoreapp2.0\PluginInterface.AssemblyInfoInputs.cache
+C:\Users\ciprian.sulu\source\repos\OOPBasicApp\PluginInterface\obj\Debug\netcoreapp2.0\PluginInterface.AssemblyInfo.cs
+C:\Users\ciprian.sulu\source\repos\OOPBasicApp\PluginInterface\obj\Debug\netcoreapp2.0\PluginInterface.dll
+C:\Users\ciprian.sulu\source\repos\OOPBasicApp\PluginInterface\obj\Debug\netcoreapp2.0\PluginInterface.pdb

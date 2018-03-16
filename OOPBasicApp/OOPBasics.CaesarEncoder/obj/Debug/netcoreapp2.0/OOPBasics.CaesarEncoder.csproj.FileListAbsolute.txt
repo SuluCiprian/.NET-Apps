@@ -1,0 +1,11 @@
+C:\Users\ciprian.sulu\source\repos\OOPBasicApp\OOPBasics.CaesarEncoder\bin\Debug\netcoreapp2.0\OOPBasics.CaesarEncoder.deps.json
+C:\Users\ciprian.sulu\source\repos\OOPBasicApp\OOPBasics.CaesarEncoder\bin\Debug\netcoreapp2.0\OOPBasics.CaesarEncoder.dll
+C:\Users\ciprian.sulu\source\repos\OOPBasicApp\OOPBasics.CaesarEncoder\bin\Debug\netcoreapp2.0\OOPBasics.CaesarEncoder.pdb
+C:\Users\ciprian.sulu\source\repos\OOPBasicApp\OOPBasics.CaesarEncoder\bin\Debug\netcoreapp2.0\OOPBasics.Shared.dll
+C:\Users\ciprian.sulu\source\repos\OOPBasicApp\OOPBasics.CaesarEncoder\bin\Debug\netcoreapp2.0\OOPBasics.Shared.pdb
+C:\Users\ciprian.sulu\source\repos\OOPBasicApp\OOPBasics.CaesarEncoder\obj\Debug\netcoreapp2.0\OOPBasics.CaesarEncoder.csprojResolveAssemblyReference.cache
+C:\Users\ciprian.sulu\source\repos\OOPBasicApp\OOPBasics.CaesarEncoder\obj\Debug\netcoreapp2.0\OOPBasics.CaesarEncoder.csproj.CoreCompileInputs.cache
+C:\Users\ciprian.sulu\source\repos\OOPBasicApp\OOPBasics.CaesarEncoder\obj\Debug\netcoreapp2.0\OOPBasics.CaesarEncoder.AssemblyInfoInputs.cache
+C:\Users\ciprian.sulu\source\repos\OOPBasicApp\OOPBasics.CaesarEncoder\obj\Debug\netcoreapp2.0\OOPBasics.CaesarEncoder.AssemblyInfo.cs
+C:\Users\ciprian.sulu\source\repos\OOPBasicApp\OOPBasics.CaesarEncoder\obj\Debug\netcoreapp2.0\OOPBasics.CaesarEncoder.dll
+C:\Users\ciprian.sulu\source\repos\OOPBasicApp\OOPBasics.CaesarEncoder\obj\Debug\netcoreapp2.0\OOPBasics.CaesarEncoder.pdb

@@ -1,6 +1,7 @@
 ﻿
 using System;
 using System.IO;
+using System.Linq;
 
 namespace OOPBasicApp
 {
@@ -10,11 +11,29 @@ namespace OOPBasicApp
         {
             Random rnd = new Random();
             byte rand = (byte)rnd.Next(128);
+            string path = @"D:\OOPBasics";
 
+            //Algorithms.EnigmaEncoder byteEncoder = new Algorithms.EnigmaEncoder(100, 250, rand);
+            //Algorithms.CaesarEncoder numberEncoder = new Algorithms.CaesarEncoder();
 
-            EnigmaEncoder byteEncoder = new EnigmaEncoder(100, 250, rand);
-            CaesarEncoder numberEncoder = new CaesarEncoder();
-            TextEncoder textEncoder = new TextEncoder(numberEncoder);
+            PluginsManager dla = new PluginsManager();
+            //PluginInterface.IEncoder encoder = dla.LoadAssembly(path);
+
+            Type[] algorithms = dla.GetTypes(path);
+
+            //PluginInterface.IEncoder encoder = dla.LoadAssemblyByName(algorithms, "CaesarEncoder");
+
+            PluginInterface.IEncoder encoder = null;
+            foreach (Type item in algorithms)
+            {
+                if (!item.IsClass) continue;
+                if (item.GetInterfaces().Contains(typeof(PluginInterface.IEncoder)))
+                {
+                     encoder = (PluginInterface.IEncoder)Activator.CreateInstance(item);
+                }
+            }
+
+            TextEncoder textEncoder = new TextEncoder(encoder);
 
             TextReader reader = GetInputTextReader();
             BinaryWriter writer = GetOutputBinaryWriter();

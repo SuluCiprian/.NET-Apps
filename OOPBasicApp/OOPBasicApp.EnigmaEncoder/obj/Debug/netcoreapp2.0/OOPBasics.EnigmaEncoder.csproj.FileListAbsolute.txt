@@ -1,0 +1,10 @@
+C:\Users\ciprian.sulu\source\repos\OOPBasicApp\OOPBasicApp.EnigmaEncoder\bin\Debug\netcoreapp2.0\OOPBasics.EnigmaEncoder.deps.json
+C:\Users\ciprian.sulu\source\repos\OOPBasicApp\OOPBasicApp.EnigmaEncoder\bin\Debug\netcoreapp2.0\OOPBasics.EnigmaEncoder.dll
+C:\Users\ciprian.sulu\source\repos\OOPBasicApp\OOPBasicApp.EnigmaEncoder\bin\Debug\netcoreapp2.0\OOPBasics.EnigmaEncoder.pdb
+C:\Users\ciprian.sulu\source\repos\OOPBasicApp\OOPBasicApp.EnigmaEncoder\bin\Debug\netcoreapp2.0\OOPBasics.Shared.dll
+C:\Users\ciprian.sulu\source\repos\OOPBasicApp\OOPBasicApp.EnigmaEncoder\bin\Debug\netcoreapp2.0\OOPBasics.Shared.pdb
+C:\Users\ciprian.sulu\source\repos\OOPBasicApp\OOPBasicApp.EnigmaEncoder\obj\Debug\netcoreapp2.0\OOPBasics.EnigmaEncoder.csproj.CoreCompileInputs.cache
+C:\Users\ciprian.sulu\source\repos\OOPBasicApp\OOPBasicApp.EnigmaEncoder\obj\Debug\netcoreapp2.0\OOPBasics.EnigmaEncoder.AssemblyInfoInputs.cache
+C:\Users\ciprian.sulu\source\repos\OOPBasicApp\OOPBasicApp.EnigmaEncoder\obj\Debug\netcoreapp2.0\OOPBasics.EnigmaEncoder.AssemblyInfo.cs
+C:\Users\ciprian.sulu\source\repos\OOPBasicApp\OOPBasicApp.EnigmaEncoder\obj\Debug\netcoreapp2.0\OOPBasics.EnigmaEncoder.dll
+C:\Users\ciprian.sulu\source\repos\OOPBasicApp\OOPBasicApp.EnigmaEncoder\obj\Debug\netcoreapp2.0\OOPBasics.EnigmaEncoder.pdb

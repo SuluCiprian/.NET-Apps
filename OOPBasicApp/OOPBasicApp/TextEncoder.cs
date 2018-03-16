@@ -6,9 +6,9 @@ namespace OOPBasicApp
 {
     class TextEncoder
     {
-        private IEncoder encoder;
+        private OOPBasics.Shared.IEncoder encoder;
 
-        public TextEncoder(IEncoder encoder)
+        public TextEncoder(OOPBasics.Shared.IEncoder encoder)
         {
             this.encoder = encoder;
         }
