@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using OOPBasics.Shared;
 
 namespace OOPBasicApp
 {
@@ -19,8 +20,7 @@ namespace OOPBasicApp
             TextReader readFile = null; 
             try
             {
-                //string inputPath = @"C:\Users\ciprian.sulu\source\repos\OOPBasicApp\OOPBasicApp\input.txt";
-                string inputPath = @"E:\input.txt";
+                string inputPath = @"C:\Users\ciprian.sulu\Documents\.NET-Apps\OOPBasicApp\OOPBasicApp\input.txt";
                 readFile = new StreamReader(inputPath);
             }
             catch (FileNotFoundException ex)
@@ -40,8 +40,7 @@ namespace OOPBasicApp
             BinaryWriter writer = null;
             try
             {
-                //string outputPath = @"C:\Users\ciprian.sulu\source\repos\OOPBasicApp\OOPBasicApp\encoded.bin";
-                string outputPath = @"E:\encoded.bin";
+                string outputPath = @"C:\Users\ciprian.sulu\Documents\.NET-Apps\OOPBasicApp\OOPBasicApp\encoded.bin";
                 writer = new BinaryWriter(File.Open(outputPath, FileMode.Create));
             }
             catch(UnauthorizedAccessException ex)
@@ -58,7 +57,7 @@ namespace OOPBasicApp
 
         public static void Menu()
         {
-            PluginsManager pluginManager = new PluginsManager();
+            PluginsManager<IPlugin> pluginManager = new PluginsManager<IPlugin>();
             pluginManager.LoadPlugins();
 
             TextReader reader = GetInputTextReader();

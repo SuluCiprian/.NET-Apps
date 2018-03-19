@@ -8,12 +8,12 @@ using OOPBasics.Shared;
 
 namespace OOPBasicApp
 {
-    class PluginsManager
+    class PluginsManager<T>
     {
         private Type[] types;
-        List<IPlugin> plugins = new List<IPlugin>();
+        List<T> plugins = new List<T>();
 
-        public IEnumerable<IPlugin> Plugins
+        public IEnumerable<T> Plugins
         {
             get
             {
@@ -26,7 +26,7 @@ namespace OOPBasicApp
             IEnumerable<string> pluginFiles = GetPluginFiles();
             foreach (string file in pluginFiles)
             {
-                Type pluginIfType = typeof(IPlugin);
+                Type pluginIfType = typeof(T);
                 Assembly ptrAssembly = Assembly.LoadFile(file);
                 types = ptrAssembly.GetExportedTypes();
                 foreach (var item in types)
@@ -34,7 +34,7 @@ namespace OOPBasicApp
                     if (!item.IsClass) continue;
                     if (pluginIfType.IsAssignableFrom(item))
                     {
-                        plugins.Add((IPlugin)Activator.CreateInstance(item));
+                        plugins.Add((T)Activator.CreateInstance(item));
                     }
                 }
             }
