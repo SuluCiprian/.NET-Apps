@@ -1,14 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using OOPBasics.Shared;
 
 namespace OOPBasicApp
 {
     class TextEncoder
     {
-        private OOPBasics.Shared.IEncoder encoder;
+        private IEncoder encoder;
 
-        public TextEncoder(OOPBasics.Shared.IEncoder encoder)
+        public TextEncoder(IEncoder encoder)
         {
             this.encoder = encoder;
         }

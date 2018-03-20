@@ -12,6 +12,16 @@ namespace OOPBasicApp
     {
         private Type[] types;
         List<T> plugins = new List<T>();
+        private string dllPath;
+        public PluginsManager()
+        {
+
+        }
+
+        public PluginsManager(string dllPath)
+        {
+            this.dllPath = dllPath;
+        }
 
         public IEnumerable<T> Plugins
         {

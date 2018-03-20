@@ -8,7 +8,7 @@ namespace Algorithms
 {
     class CaesarEncoder: IEncoder
     {
-        private static readonly byte offset = 98;
+        private static readonly byte offset = 3;
       
         public byte[] Encode(byte[] inputData)
         {

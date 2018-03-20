@@ -15,6 +15,11 @@ namespace OOPBasics.CaesarDecoder
             return new CaesarDecoder();
         }
 
+        public IEncoder GetEncoder()
+        {
+            throw new NotImplementedException();
+        }
+
         public string GetName()
         {
             return name;

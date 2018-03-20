@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using OOPBasics.Shared;
 
 namespace OOPBasicApp
 {
     class CaesarEncoder: IEncoder
     {
-        private static readonly byte offset = 98;
+        private static readonly byte offset = 3;
 
        
         public byte[] Encode(byte[] inputData)
