@@ -12,11 +12,16 @@ namespace OOPBasicApp
 
         static void Main(string[] args)
         {
-            Menu();
+            //Menu();
             //AppManager appManager = new AppManager();
             //appManager.Initialize();
+            ProgramManager programManager = new ProgramManager();
+            programManager.Initialize();
+            programManager.RunApp();
+            
         }
 
+        /*
         public static TextReader GetInputTextReader()
         {
             TextReader readFile = null; 
@@ -96,8 +101,9 @@ namespace OOPBasicApp
             }
             
             return writer;
-        }
+        }*/
 
+        /*
         public static void Menu()
         {
 
@@ -112,7 +118,7 @@ namespace OOPBasicApp
 
             if (menu == 1)
             {
-                PluginsManager<IPlugin> pluginManager = new PluginsManager<IPlugin>();
+                PluginsManager<IEncoderPlugin> pluginManager = new PluginsManager<IEncoderPlugin>();
                 pluginManager.LoadPlugins();
 
 
@@ -209,53 +215,7 @@ namespace OOPBasicApp
             writer.Close();
             binaryReader.Close();
             textWriter.Close();
-        }
-
-        /*
-        public static void Load<T>(TextReader reader, BinaryWriter writer) 
-        {
-            PluginsManager<T> pluginManager = new PluginsManager<T>();
-            pluginManager.LoadPlugins();
-
-
-            int pluginNumber = 0, option = 0;
-
-            foreach (var plugin in pluginManager.Plugins)
-            {
-                Console.WriteLine(++pluginNumber + ". " + plugin.GetName());
-            }
-
-            Console.WriteLine("--------------------------------");
-            Console.WriteLine("Enter your option:");
-
-            option = Convert.ToInt32(Console.ReadLine());
-            pluginNumber = 1;
-
-            foreach (var plugin in pluginManager.Plugins)
-            {
-                if (option == pluginNumber)
-                {
-                    List<string> arguments = (List<string>)plugin.GetRequiredArguments();
-                    if (arguments.Count != 0)
-                    {
-                        Dictionary<string, string> parameters = new Dictionary<string, string>();
-                        Console.WriteLine("Enter parameters: ");
-                        foreach (var arg in arguments)
-                        {
-                            Console.WriteLine(arg + ": ");
-                            parameters[arg] = Console.ReadLine();
-                        }
-                        plugin.SetArguments(parameters);
-                    }
-                    TextEncoder textEncoder = new TextEncoder(plugin.GetEncoder());
-                    StreamEncoder streamEncoder = new StreamEncoder(textEncoder, reader);
-                    streamEncoder.Encode(writer);
-                    Console.WriteLine(plugin.GetName() + " Finished");
-                    break;
-                }
-
-                pluginNumber++;
-            }
         }*/
+
     }
 }

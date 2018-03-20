@@ -31,9 +31,9 @@ namespace OOPBasicApp
             }
         }
 
-        public void LoadPlugins()
+        public void LoadPlugins(string path)
         {
-            IEnumerable<string> pluginFiles = GetPluginFiles();
+            IEnumerable<string> pluginFiles = GetPluginFiles(path);
             foreach (string file in pluginFiles)
             {
                 Type pluginIfType = typeof(T);
@@ -52,10 +52,10 @@ namespace OOPBasicApp
         }     
         
 
-        private IEnumerable<string> GetPluginFiles()
+        private IEnumerable<string> GetPluginFiles(string path)
         {
             List<string> pluginFiles = new List<string>() ;
-            DirectoryInfo d = new DirectoryInfo(@"D:\OOPBasics");
+            DirectoryInfo d = new DirectoryInfo(path);
             FileInfo[] files = d.GetFiles("*.dll");
             foreach (FileInfo file in files)
             {

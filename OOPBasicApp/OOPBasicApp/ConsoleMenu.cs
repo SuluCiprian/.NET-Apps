@@ -6,22 +6,21 @@ namespace OOPBasicApp
 {
     public class ConsoleMenu
     {
-        private List<MenuItem> items = new List<MenuItem>();
         private bool continueLoop = true;
-
+        private List<MenuItem> menuItems = new List<MenuItem>();
         public ConsoleMenu()
         {
-            AddItem(new MenuItem { ShortcutChar = '0', Text = "Exit", ActionToExecute = new MenuItemAction(ExitMenu) });
+            AddItem(new MenuItem { ShortcutChar = '0', Text = "Exit", ItemAction = new MenuItemAction(ExitMenu) });
         }
 
         public void AddItem(MenuItem item)
         {
-            items.Add(item);
+            menuItems.Add(item);
         }
         private void DisplayMenu()
         {
             Console.Clear();
-            foreach (var item in items)
+            foreach (var item in menuItems)
             {
                 Console.WriteLine("{0}. {1}", item.ShortcutChar, item.Text);
             }
@@ -32,24 +31,23 @@ namespace OOPBasicApp
             while (continueLoop)
             {
                 DisplayMenu();
-                ConsoleKeyInfo key = Console.ReadKey();
-                foreach (var item in items)
+                ConsoleKeyInfo keyInfo = Console.ReadKey();
+                foreach (var item in menuItems)
                 {
-                    if (item.ShortcutChar == key.KeyChar)
+                    if (item.ShortcutChar == keyInfo.KeyChar)
                     {
-                        if (item.ActionToExecute != null)
+                        if (item.ItemAction != null)
                         {
-                            item.ActionToExecute(this);
+                            item.ItemAction(this, item.ContextObject);
                         }
                     }
                 }
             }
         }
 
-        private void ExitMenu(object sender)
+        private void ExitMenu(object sender, object contextObject)
         {
             continueLoop = false;
         }
-
     }
 }
