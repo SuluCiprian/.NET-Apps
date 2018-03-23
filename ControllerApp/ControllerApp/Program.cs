@@ -6,8 +6,8 @@ namespace ControllerApp
     {
         static void Main(string[] args)
         {
-            UserInterface userInterface = new UserInterface();
-            userInterface.Run();
+            ProgramManager programManager = new ProgramManager();
+            programManager.Run();
         }
     }
 }

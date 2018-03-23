@@ -6,65 +6,30 @@ namespace ControllerApp
 {
     public class Student
     {
-        private int id;
-        private string firstName;
-        private string lastName;
-        private string group;
-        private List<string> attributes = new List<string>();
+        public int Id { get; set; }        
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string Group { get; set; }
 
-        public Student()
-        {
-            attributes.Add("id");
-            attributes.Add("firstName");
-            attributes.Add("lastName");
-            attributes.Add("group");
-        }
+        //public List<Student> Students
+        //{
+        //    get
+        //    {
+        //        return students;
+        //    }
+        //}
 
-        public int Id
-        {
-            get
-            {
-                return id;
-            }
-            
-        }
-        public string FirstName
-        {
-            get
-            {
-                return firstName;
-            }
-            
-        }
+        //public IEnumerable<string> GetRequiredAttributes()
+        //{
+        //    return attributes;
+        //}
 
-        public string LastName
-        {
-            get
-            {
-                return lastName;
-            }
-            
-        }
-
-        public string Group
-        {
-            get
-            {
-                return group;
-            }
-          
-        }
-        public IEnumerable<string> GetRequiredAttributes()
-        {
-            return attributes;
-        }
-
-        public void SetAttributes(IDictionary<string, string> attrib)
-        {
-            id = Int32.Parse(attrib["id"]);
-            firstName = attrib["firstName"];
-            lastName = attrib["lastName"];
-            group = attrib["group"];
-        }
+        //public void SetAttributes(IDictionary<string, string> attrib)
+        //{
+        //    id = Int32.Parse(attrib["id"]);
+        //    firstName = attrib["firstName"];
+        //    lastName = attrib["lastName"];
+        //    group = attrib["group"];
+        //}
     }
 }
