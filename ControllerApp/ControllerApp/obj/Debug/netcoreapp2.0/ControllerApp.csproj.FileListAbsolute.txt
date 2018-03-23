@@ -1,0 +1,11 @@
+C:\Users\Cipada\source\repos\ControllerApp\ControllerApp\bin\Debug\netcoreapp2.0\ControllerApp.deps.json
+C:\Users\Cipada\source\repos\ControllerApp\ControllerApp\bin\Debug\netcoreapp2.0\ControllerApp.runtimeconfig.json
+C:\Users\Cipada\source\repos\ControllerApp\ControllerApp\bin\Debug\netcoreapp2.0\ControllerApp.runtimeconfig.dev.json
+C:\Users\Cipada\source\repos\ControllerApp\ControllerApp\bin\Debug\netcoreapp2.0\ControllerApp.dll
+C:\Users\Cipada\source\repos\ControllerApp\ControllerApp\bin\Debug\netcoreapp2.0\ControllerApp.pdb
+C:\Users\Cipada\source\repos\ControllerApp\ControllerApp\obj\Debug\netcoreapp2.0\ControllerApp.csprojResolveAssemblyReference.cache
+C:\Users\Cipada\source\repos\ControllerApp\ControllerApp\obj\Debug\netcoreapp2.0\ControllerApp.csproj.CoreCompileInputs.cache
+C:\Users\Cipada\source\repos\ControllerApp\ControllerApp\obj\Debug\netcoreapp2.0\ControllerApp.AssemblyInfoInputs.cache
+C:\Users\Cipada\source\repos\ControllerApp\ControllerApp\obj\Debug\netcoreapp2.0\ControllerApp.AssemblyInfo.cs
+C:\Users\Cipada\source\repos\ControllerApp\ControllerApp\obj\Debug\netcoreapp2.0\ControllerApp.dll
+C:\Users\Cipada\source\repos\ControllerApp\ControllerApp\obj\Debug\netcoreapp2.0\ControllerApp.pdb
