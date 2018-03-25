@@ -4,7 +4,8 @@ using System.Text;
 
 namespace ControllerApp
 {
-    class DisplayView
+    abstract class View
     {
+        abstract public View Execute();
     }
 }

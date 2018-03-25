@@ -6,57 +6,62 @@ namespace ControllerApp
 {
     class StudentController
     {
-        private Student model;
-        private StudentView view;
         private List<Student> students = new List<Student>();
+        private ConsoleMenu consoleMenu;
 
-        //public StudentController(Student model, StudentView view)
+
+        //public View Index()
         //{
-        //    this.model = model;
-        //    this.view = view;
+        //    consoleMenu.AddItem(new MenuItem { ShortcutChar = '1', Text = "Add Student", ContextObject = students, ItemAction = new MenuItemAction(AddStudent) }); ;
+        //    return new MainView();
         //}
 
-        public void Index(MainView mainView)
+        public MainView AddStudent(Student student)
         {
-
-             mainView.Execute();
+            students.Add(student);
+            
+            return new MainView();
         }
 
-        public void AddStudent()
+        public View RemoveStudent(Student studentToRemove)
         {
-            view.HandleStudentDetails(model);
-            students.Add(model);
-        }
-
-        public void RemoveStudent()
-        {
-            foreach (var student in students)
+            for (int i = 0; i < students.Count; i++)
             {
-                if (student.Id == view.GetId("Remove"))
+                if (students[i] == studentToRemove)
                 {
-                    students.Remove(student);
+                    students.Remove(studentToRemove);
                     break;
                 }
             }
+            return new MainView();
         }
 
-        public void Modify()
+        public View Modify(Student studentToModify)
         {
-            foreach (var student in students)
+            for (int i = 0; i < students.Count; i++)
             {
-                if (student.Id == view.GetId("Modify"))
+                if (students[i] == studentToModify)
                 {
-                    view.HandleStudentDetails(student);
+                    students[i] = studentToModify;
                     break;
                 }
             }
+            return new MainView();
         }
 
-        public void ViewStudents()
+        public View ViewStudents()
         {
-            view.PrintStudentsDetails(students);
-        }
-
+            foreach (var student in students)
+            {
+                Console.WriteLine("\n" + student.Id);
+                Console.WriteLine(student.FirstName);
+                Console.WriteLine(student.LastName);
+                Console.WriteLine(student.Group);
+            }
+            Console.WriteLine("Press any key to continue");
+            Console.ReadKey();
+            return new MainView();
+        }        
 
     }
 }

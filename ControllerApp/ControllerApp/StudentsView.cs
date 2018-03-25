@@ -4,22 +4,18 @@ using System.Text;
 
 namespace ControllerApp
 {
-    class RemoveView : View
+    class StudentsView: View
     {
         private StudentController controller;
 
-        public RemoveView(StudentController controller)
+        public StudentsView(StudentController controller)
         {
             this.controller = controller;
         }
 
         public override View Execute()
         {
-            Student student = new Student();
-            Console.WriteLine("Remove student with id: ");
-            student.FirstName = Console.ReadLine();
-
-            View retView = controller.RemoveStudent(student);
+            View retView = controller.ViewStudents();
             return retView;
         }
     }

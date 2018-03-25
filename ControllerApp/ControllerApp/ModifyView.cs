@@ -4,12 +4,11 @@ using System.Text;
 
 namespace ControllerApp
 {
-    class AddView: View
+    class ModifyView: View
     {
         private StudentController controller;
-        private ConsoleMenu consoleMenu;
 
-        public AddView(StudentController controller)
+        public ModifyView(StudentController controller)
         {
             this.controller = controller;
         }
@@ -25,16 +24,11 @@ namespace ControllerApp
             student.LastName = Console.ReadLine();
             Console.WriteLine("Group: ");
             student.Group = Console.ReadLine();
+            Console.WriteLine(": ");
+            student.FirstName = Console.ReadLine();
 
-           
-
-            View retView = controller.AddStudent(student);
+            View retView = controller.Modify(student);
             return retView;
-        }
-
-        public void AddAction(object sender, object context)
-        {
-            AddView view = (AddView)Execute();
         }
     }
 }

@@ -9,3 +9,14 @@ C:\Users\Cipada\source\repos\ControllerApp\ControllerApp\obj\Debug\netcoreapp2.0
 C:\Users\Cipada\source\repos\ControllerApp\ControllerApp\obj\Debug\netcoreapp2.0\ControllerApp.AssemblyInfo.cs
 C:\Users\Cipada\source\repos\ControllerApp\ControllerApp\obj\Debug\netcoreapp2.0\ControllerApp.dll
 C:\Users\Cipada\source\repos\ControllerApp\ControllerApp\obj\Debug\netcoreapp2.0\ControllerApp.pdb
+C:\Users\toxyk\OneDrive\Documente\netApps\ControllerApp\ControllerApp\obj\Debug\netcoreapp2.0\ControllerApp.csprojResolveAssemblyReference.cache
+C:\Users\toxyk\OneDrive\Documente\netApps\ControllerApp\ControllerApp\obj\Debug\netcoreapp2.0\ControllerApp.csproj.CoreCompileInputs.cache
+C:\Users\toxyk\OneDrive\Documente\netApps\ControllerApp\ControllerApp\obj\Debug\netcoreapp2.0\ControllerApp.AssemblyInfoInputs.cache
+C:\Users\toxyk\OneDrive\Documente\netApps\ControllerApp\ControllerApp\obj\Debug\netcoreapp2.0\ControllerApp.AssemblyInfo.cs
+C:\Users\toxyk\OneDrive\Documente\netApps\ControllerApp\ControllerApp\bin\Debug\netcoreapp2.0\ControllerApp.deps.json
+C:\Users\toxyk\OneDrive\Documente\netApps\ControllerApp\ControllerApp\bin\Debug\netcoreapp2.0\ControllerApp.runtimeconfig.json
+C:\Users\toxyk\OneDrive\Documente\netApps\ControllerApp\ControllerApp\bin\Debug\netcoreapp2.0\ControllerApp.runtimeconfig.dev.json
+C:\Users\toxyk\OneDrive\Documente\netApps\ControllerApp\ControllerApp\bin\Debug\netcoreapp2.0\ControllerApp.dll
+C:\Users\toxyk\OneDrive\Documente\netApps\ControllerApp\ControllerApp\bin\Debug\netcoreapp2.0\ControllerApp.pdb
+C:\Users\toxyk\OneDrive\Documente\netApps\ControllerApp\ControllerApp\obj\Debug\netcoreapp2.0\ControllerApp.dll
+C:\Users\toxyk\OneDrive\Documente\netApps\ControllerApp\ControllerApp\obj\Debug\netcoreapp2.0\ControllerApp.pdb

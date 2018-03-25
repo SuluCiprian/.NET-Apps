@@ -4,51 +4,32 @@ using System.Text;
 
 namespace ControllerApp
 {
-    class MainView
+    class MainView: View
     {
+        private ConsoleMenu consoleMenu;
+        private StudentController controller;
 
-        private bool continueLoop = true;
-        private List<MenuItem> menuItems = new List<MenuItem>();
         public MainView()
         {
-            AddItem(new MenuItem { ShortcutChar = '0', Text = "Exit", ItemAction = new MenuItemAction(ExitMenu) });
+            this.consoleMenu = new ConsoleMenu();
+            this.controller = new StudentController();
         }
 
-        public void AddItem(MenuItem item)
+       
+
+        public override View Execute()
         {
-            menuItems.Add(item);
-        }
-        private void DisplayMenu()
-        {
-            Console.Clear();
-            foreach (var item in menuItems)
-            {
-                Console.WriteLine("{0}. {1}", item.ShortcutChar, item.Text);
-            }
-        }
-        public void Execute()
-        {
-            continueLoop = true;
-            while (continueLoop)
-            {
-                DisplayMenu();
-                ConsoleKeyInfo keyInfo = Console.ReadKey();
-                foreach (var item in menuItems)
-                {
-                    if (item.ShortcutChar == keyInfo.KeyChar)
-                    {
-                        if (item.ItemAction != null)
-                        {
-                            item.ItemAction(this, item.ContextObject);
-                        }
-                    }
-                }
-            }
+            return this;
         }
 
-        private void ExitMenu(object sender, object contextObject)
+        public void AddAction(object sender, object context)
         {
-            continueLoop = false;
+            AddView view = (AddView)Execute();
+        }
+
+        public void RunApp()
+        {
+            consoleMenu.Run();
         }
     }
 }
