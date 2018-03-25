@@ -17,7 +17,7 @@ namespace ControllerApp
         {
             Student student = new Student();
             Console.WriteLine("Remove student with id: ");
-            student.FirstName = Console.ReadLine();
+            student.Id = Int32.Parse(Console.ReadLine());
 
             View retView = controller.RemoveStudent(student);
             return retView;

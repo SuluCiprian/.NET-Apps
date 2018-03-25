@@ -664,23 +664,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\toxyk\\.nuget\\packages\\": {},
+    "C:\\Users\\Cipada\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\toxyk\\OneDrive\\Documente\\netApps\\ControllerApp\\ControllerApp\\ControllerApp.csproj",
+      "projectUniqueName": "C:\\Users\\Cipada\\Documents\\.NET-Apps\\ControllerApp\\ControllerApp\\ControllerApp.csproj",
       "projectName": "ControllerApp",
-      "projectPath": "C:\\Users\\toxyk\\OneDrive\\Documente\\netApps\\ControllerApp\\ControllerApp\\ControllerApp.csproj",
-      "packagesPath": "C:\\Users\\toxyk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\toxyk\\OneDrive\\Documente\\netApps\\ControllerApp\\ControllerApp\\obj\\",
+      "projectPath": "C:\\Users\\Cipada\\Documents\\.NET-Apps\\ControllerApp\\ControllerApp\\ControllerApp.csproj",
+      "packagesPath": "C:\\Users\\Cipada\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Cipada\\Documents\\.NET-Apps\\ControllerApp\\ControllerApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\toxyk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Cipada\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

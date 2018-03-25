@@ -7,6 +7,7 @@ namespace ControllerApp
         static void Main(string[] args)
         {
             MainView mainView = new MainView();
+            mainView.Initialize();
             mainView.RunApp();
         }
     }

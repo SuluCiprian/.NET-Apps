@@ -7,14 +7,6 @@ namespace ControllerApp
     class StudentController
     {
         private List<Student> students = new List<Student>();
-        private ConsoleMenu consoleMenu;
-
-
-        //public View Index()
-        //{
-        //    consoleMenu.AddItem(new MenuItem { ShortcutChar = '1', Text = "Add Student", ContextObject = students, ItemAction = new MenuItemAction(AddStudent) }); ;
-        //    return new MainView();
-        //}
 
         public MainView AddStudent(Student student)
         {
@@ -27,9 +19,9 @@ namespace ControllerApp
         {
             for (int i = 0; i < students.Count; i++)
             {
-                if (students[i] == studentToRemove)
+                if (students[i].Id == studentToRemove.Id)
                 {
-                    students.Remove(studentToRemove);
+                    students.Remove(students[i]);
                     break;
                 }
             }
@@ -40,7 +32,7 @@ namespace ControllerApp
         {
             for (int i = 0; i < students.Count; i++)
             {
-                if (students[i] == studentToModify)
+                if (students[i].Id == studentToModify.Id)
                 {
                     students[i] = studentToModify;
                     break;
