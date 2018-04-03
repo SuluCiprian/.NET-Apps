@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphicalApp.Circle", "Grap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphicalApp.Square", "GraphicalApp.Square\GraphicalApp.Square.csproj", "{C7725F0D-072E-4459-9807-3BD5FE822A48}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapesGroup.cs", "ShapesGroup.cs\ShapesGroup.cs.csproj", "{B2F8D0DF-84A2-49A7-AF43-84FADF837D29}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{C7725F0D-072E-4459-9807-3BD5FE822A48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7725F0D-072E-4459-9807-3BD5FE822A48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7725F0D-072E-4459-9807-3BD5FE822A48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2F8D0DF-84A2-49A7-AF43-84FADF837D29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2F8D0DF-84A2-49A7-AF43-84FADF837D29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2F8D0DF-84A2-49A7-AF43-84FADF837D29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2F8D0DF-84A2-49A7-AF43-84FADF837D29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
