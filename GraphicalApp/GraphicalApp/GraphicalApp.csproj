@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\GraphicalApp.Shared\GraphicalApp.Shared.csproj" />
+    <ProjectReference Include="..\ShapesGroup.cs\GraphicalApp.ShapesGroup.csproj" />
   </ItemGroup>
 
 </Project>

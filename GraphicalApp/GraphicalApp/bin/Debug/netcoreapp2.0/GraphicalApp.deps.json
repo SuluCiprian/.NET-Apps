@@ -8,10 +8,19 @@
     ".NETCoreApp,Version=v2.0": {
       "GraphicalApp/1.0.0": {
         "dependencies": {
+          "GraphicalApp.ShapesGroup": "1.0.0",
           "GraphicalApp.Shared": "1.0.0"
         },
         "runtime": {
           "GraphicalApp.dll": {}
+        }
+      },
+      "GraphicalApp.ShapesGroup/1.0.0": {
+        "dependencies": {
+          "GraphicalApp.Shared": "1.0.0"
+        },
+        "runtime": {
+          "GraphicalApp.ShapesGroup.dll": {}
         }
       },
       "GraphicalApp.Shared/1.0.0": {
@@ -23,6 +32,11 @@
   },
   "libraries": {
     "GraphicalApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GraphicalApp.ShapesGroup/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

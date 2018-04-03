@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using GraphicalApp.Shared;
+using GraphicalApp.ShapesGroup;
 
 namespace GraphicalApp
 {
@@ -43,6 +44,7 @@ namespace GraphicalApp
                 consoleMenu.AddItem(new MenuItem { ShortcutChar = optionNo, Text = shapePlugin.GetName(), ContextObject = shapePlugin, ItemAction = new MenuItemAction(Action) });
                 optionNo++;
             }
+            consoleMenu.AddItem(new MenuItem { ShortcutChar = optionNo, Text = "Add to group", ContextObject = new ShapesGroupPlugin(), ItemAction = new MenuItemAction(AddAction) });
         }
 
         public void RunApp()
@@ -59,7 +61,22 @@ namespace GraphicalApp
             Console.WriteLine("Shapes on canvas:");
             canvas.DrawShapes();
             Console.ReadKey();
+        }
 
+        public void AddAction(object sender, object contextObject)
+        {
+            ShapesGroupPlugin shapePlugin = (ShapesGroupPlugin)contextObject;
+            HandlePluginParameters(shapePlugin);
+            IShape shape = shapePlugin.GetShape();
+            
+            foreach (var item in canvas.ShapesOnCanvas)
+            {
+                if (item.Identifier == shape.Identifier)
+                {
+                    shapePlugin.AddToGroup(item);
+                    break;
+                }
+            }
         }
     }
 }

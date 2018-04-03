@@ -8,17 +8,18 @@ namespace GraphicalApp.ShapesGroup
     public class ShapesGroupPlugin : IShapePlugin
     {
         private int identifier;
+        private string name;
         List<string> arguments = new List<string>();
 
         public ShapesGroupPlugin()
         {
             arguments.Add("identifier");
+            arguments.Add("name");
         }
 
         public string GetName()
         {
-            ShapesGroup group = (ShapesGroup)GetShape();
-            return group.Name;
+            return "Group Shape";
         }
 
         public IEnumerable<string> GetRequiredArguments()
@@ -28,22 +29,19 @@ namespace GraphicalApp.ShapesGroup
 
         public IShape GetShape()
         {
-            return new ShapesGroup();
+            return new ShapesGroup(name, identifier);
         }
 
         public void SetArguments(IDictionary<string, string> args)
         {
             identifier = Int32.Parse(args["identifier"]);
-            // de mutat
+            name = args["name"];
+            
+        }
+        public void AddToGroup(IShape shape)
+        {
             ShapesGroup group = (ShapesGroup)GetShape();
-            foreach (var item in group.GroupSahpes)
-            {
-                if(item.Identifier == identifier)
-                {
-                    group.AddToGroup(item);
-                    break;
-                }
-            }
+            group.AddToGroup(shape);
         }
     }
 }

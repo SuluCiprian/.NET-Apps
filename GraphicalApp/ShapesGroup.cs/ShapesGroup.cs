@@ -7,21 +7,31 @@ namespace GraphicalApp.ShapesGroup
 {
     public class ShapesGroup: IShape
     {
-        private string name = "ShapesGroup";
+        private string groupName;
         private int identifier;
         private List<IShape> groupShapes = new List<IShape>();
+        public ShapesGroup(string groupName, int identifier)
+        {
+            this.groupName = groupName;
+            this.identifier = identifier;
+        }
         public List<IShape> GroupSahpes
         {
             get
             {
                 return groupShapes;
             }
+
         }
-        public string Name
+        public string GroupName
         {
             get
             {
-                return name;
+                return groupName;
+            }
+            set
+            {
+                groupName = value;
             }
         }
         public int Identifier { get => identifier; set => identifier = value; }
@@ -44,7 +54,7 @@ namespace GraphicalApp.ShapesGroup
 
         public void Draw()
         {
-            Console.WriteLine(name);
+            Console.WriteLine(groupName);
             foreach (var shape in groupShapes)
             {
                 shape.Draw();

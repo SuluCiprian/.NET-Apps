@@ -197,6 +197,19 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "GraphicalApp.ShapesGroup/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "GraphicalApp.Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GraphicalApp.ShapesGroup.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GraphicalApp.ShapesGroup.dll": {}
+        }
+      },
       "GraphicalApp.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
@@ -667,6 +680,11 @@
         "netstandard.library.nuspec"
       ]
     },
+    "GraphicalApp.ShapesGroup/1.0.0": {
+      "type": "project",
+      "path": "../ShapesGroup.cs/GraphicalApp.ShapesGroup.csproj",
+      "msbuildProject": "../ShapesGroup.cs/GraphicalApp.ShapesGroup.csproj"
+    },
     "GraphicalApp.Shared/1.0.0": {
       "type": "project",
       "path": "../GraphicalApp.Shared/GraphicalApp.Shared.csproj",
@@ -675,6 +693,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "GraphicalApp.ShapesGroup >= 1.0.0",
       "GraphicalApp.Shared >= 1.0.0",
       "Microsoft.NETCore.App >= 2.0.0"
     ]
@@ -711,6 +730,9 @@
           "projectReferences": {
             "C:\\Users\\Cipada\\Documents\\Softelligence\\GraphicalApp\\GraphicalApp.Shared\\GraphicalApp.Shared.csproj": {
               "projectPath": "C:\\Users\\Cipada\\Documents\\Softelligence\\GraphicalApp\\GraphicalApp.Shared\\GraphicalApp.Shared.csproj"
+            },
+            "C:\\Users\\Cipada\\Documents\\Softelligence\\GraphicalApp\\ShapesGroup.cs\\GraphicalApp.ShapesGroup.csproj": {
+              "projectPath": "C:\\Users\\Cipada\\Documents\\Softelligence\\GraphicalApp\\ShapesGroup.cs\\GraphicalApp.ShapesGroup.csproj"
             }
           }
         }
