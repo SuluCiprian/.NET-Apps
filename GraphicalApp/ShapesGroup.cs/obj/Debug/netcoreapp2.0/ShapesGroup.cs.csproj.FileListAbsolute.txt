@@ -1,0 +1,12 @@
+C:\Users\Cipada\Documents\Softelligence\GraphicalApp\ShapesGroup.cs\obj\Debug\netcoreapp2.0\ShapesGroup.cs.csprojResolveAssemblyReference.cache
+C:\Users\Cipada\Documents\Softelligence\GraphicalApp\ShapesGroup.cs\obj\Debug\netcoreapp2.0\ShapesGroup.cs.csproj.CoreCompileInputs.cache
+C:\Users\Cipada\Documents\Softelligence\GraphicalApp\ShapesGroup.cs\obj\Debug\netcoreapp2.0\ShapesGroup.cs.AssemblyInfoInputs.cache
+C:\Users\Cipada\Documents\Softelligence\GraphicalApp\ShapesGroup.cs\obj\Debug\netcoreapp2.0\ShapesGroup.cs.AssemblyInfo.cs
+C:\Users\Cipada\Documents\Softelligence\GraphicalApp\ShapesGroup.cs\bin\Debug\netcoreapp2.0\ShapesGroup.cs.deps.json
+C:\Users\Cipada\Documents\Softelligence\GraphicalApp\ShapesGroup.cs\bin\Debug\netcoreapp2.0\ShapesGroup.cs.dll
+C:\Users\Cipada\Documents\Softelligence\GraphicalApp\ShapesGroup.cs\bin\Debug\netcoreapp2.0\ShapesGroup.cs.pdb
+C:\Users\Cipada\Documents\Softelligence\GraphicalApp\ShapesGroup.cs\bin\Debug\netcoreapp2.0\GraphicalApp.Shared.dll
+C:\Users\Cipada\Documents\Softelligence\GraphicalApp\ShapesGroup.cs\bin\Debug\netcoreapp2.0\GraphicalApp.Shared.pdb
+C:\Users\Cipada\Documents\Softelligence\GraphicalApp\ShapesGroup.cs\obj\Debug\netcoreapp2.0\ShapesGroup.cs.csproj.CopyComplete
+C:\Users\Cipada\Documents\Softelligence\GraphicalApp\ShapesGroup.cs\obj\Debug\netcoreapp2.0\ShapesGroup.cs.dll
+C:\Users\Cipada\Documents\Softelligence\GraphicalApp\ShapesGroup.cs\obj\Debug\netcoreapp2.0\ShapesGroup.cs.pdb

@@ -36,7 +36,7 @@ namespace GraphicalApp
 
         public void Initialize()
         {
-            shapesPluginManager.LoadPlugins(@"D:\GraphicalApp");
+            shapesPluginManager.LoadPlugins(@"E:\GraphicalApp");
             char optionNo = '1';
             foreach (var shapePlugin in shapesPluginManager.Plugins)
             {

@@ -7,3 +7,12 @@ C:\Users\ciprian.sulu\source\repos\GraphicalApp\GraphicalApp.Shared\obj\Debug\ne
 C:\Users\ciprian.sulu\source\repos\GraphicalApp\GraphicalApp.Shared\obj\Debug\netcoreapp2.0\GraphicalApp.Shared.dll
 C:\Users\ciprian.sulu\source\repos\GraphicalApp\GraphicalApp.Shared\obj\Debug\netcoreapp2.0\GraphicalApp.Shared.pdb
 C:\Users\ciprian.sulu\source\repos\GraphicalApp\GraphicalApp.Shared\obj\Debug\netcoreapp2.0\GraphicalApp.Shared.csprojResolveAssemblyReference.cache
+C:\Users\Cipada\Documents\Softelligence\GraphicalApp\GraphicalApp.Shared\bin\Debug\netcoreapp2.0\GraphicalApp.Shared.deps.json
+C:\Users\Cipada\Documents\Softelligence\GraphicalApp\GraphicalApp.Shared\bin\Debug\netcoreapp2.0\GraphicalApp.Shared.dll
+C:\Users\Cipada\Documents\Softelligence\GraphicalApp\GraphicalApp.Shared\bin\Debug\netcoreapp2.0\GraphicalApp.Shared.pdb
+C:\Users\Cipada\Documents\Softelligence\GraphicalApp\GraphicalApp.Shared\obj\Debug\netcoreapp2.0\GraphicalApp.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Cipada\Documents\Softelligence\GraphicalApp\GraphicalApp.Shared\obj\Debug\netcoreapp2.0\GraphicalApp.Shared.AssemblyInfoInputs.cache
+C:\Users\Cipada\Documents\Softelligence\GraphicalApp\GraphicalApp.Shared\obj\Debug\netcoreapp2.0\GraphicalApp.Shared.AssemblyInfo.cs
+C:\Users\Cipada\Documents\Softelligence\GraphicalApp\GraphicalApp.Shared\obj\Debug\netcoreapp2.0\GraphicalApp.Shared.dll
+C:\Users\Cipada\Documents\Softelligence\GraphicalApp\GraphicalApp.Shared\obj\Debug\netcoreapp2.0\GraphicalApp.Shared.pdb
+C:\Users\Cipada\Documents\Softelligence\GraphicalApp\GraphicalApp.Shared\obj\Debug\netcoreapp2.0\GraphicalApp.Shared.csprojResolveAssemblyReference.cache

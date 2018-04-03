@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphicalApp", "GraphicalApp\GraphicalApp.csproj", "{F96E94A5-3142-4D42-8383-AECDFC8D5C76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphicalApp", "GraphicalApp\GraphicalApp.csproj", "{F96E94A5-3142-4D42-8383-AECDFC8D5C76}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphicalApp.Shared", "GraphicalApp.Shared\GraphicalApp.Shared.csproj", "{723D5172-34E3-4506-AC4E-E4E4C5A2426A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphicalApp.Shared", "GraphicalApp.Shared\GraphicalApp.Shared.csproj", "{723D5172-34E3-4506-AC4E-E4E4C5A2426A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphicalApp.Circle", "GraphicalApp.Circle\GraphicalApp.Circle.csproj", "{225137E8-C874-4EF7-8303-2FFC10AA653F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphicalApp.Circle", "GraphicalApp.Circle\GraphicalApp.Circle.csproj", "{225137E8-C874-4EF7-8303-2FFC10AA653F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphicalApp.Square", "GraphicalApp.Square\GraphicalApp.Square.csproj", "{C7725F0D-072E-4459-9807-3BD5FE822A48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphicalApp.Square", "GraphicalApp.Square\GraphicalApp.Square.csproj", "{C7725F0D-072E-4459-9807-3BD5FE822A48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapesGroup.cs", "ShapesGroup.cs\ShapesGroup.cs.csproj", "{B2F8D0DF-84A2-49A7-AF43-84FADF837D29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphicalApp.ShapesGroup", "ShapesGroup.cs\GraphicalApp.ShapesGroup.csproj", "{B2F8D0DF-84A2-49A7-AF43-84FADF837D29}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

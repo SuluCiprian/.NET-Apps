@@ -9,3 +9,15 @@ C:\Users\ciprian.sulu\source\repos\GraphicalApp\GraphicalApp.Circle\obj\Debug\ne
 C:\Users\ciprian.sulu\source\repos\GraphicalApp\GraphicalApp.Circle\obj\Debug\netcoreapp2.0\GraphicalApp.Circle.AssemblyInfo.cs
 C:\Users\ciprian.sulu\source\repos\GraphicalApp\GraphicalApp.Circle\obj\Debug\netcoreapp2.0\GraphicalApp.Circle.dll
 C:\Users\ciprian.sulu\source\repos\GraphicalApp\GraphicalApp.Circle\obj\Debug\netcoreapp2.0\GraphicalApp.Circle.pdb
+C:\Users\Cipada\Documents\Softelligence\GraphicalApp\GraphicalApp.Circle\bin\Debug\netcoreapp2.0\GraphicalApp.Circle.deps.json
+C:\Users\Cipada\Documents\Softelligence\GraphicalApp\GraphicalApp.Circle\bin\Debug\netcoreapp2.0\GraphicalApp.Circle.dll
+C:\Users\Cipada\Documents\Softelligence\GraphicalApp\GraphicalApp.Circle\bin\Debug\netcoreapp2.0\GraphicalApp.Circle.pdb
+C:\Users\Cipada\Documents\Softelligence\GraphicalApp\GraphicalApp.Circle\bin\Debug\netcoreapp2.0\GraphicalApp.Shared.dll
+C:\Users\Cipada\Documents\Softelligence\GraphicalApp\GraphicalApp.Circle\bin\Debug\netcoreapp2.0\GraphicalApp.Shared.pdb
+C:\Users\Cipada\Documents\Softelligence\GraphicalApp\GraphicalApp.Circle\obj\Debug\netcoreapp2.0\GraphicalApp.Circle.csprojResolveAssemblyReference.cache
+C:\Users\Cipada\Documents\Softelligence\GraphicalApp\GraphicalApp.Circle\obj\Debug\netcoreapp2.0\GraphicalApp.Circle.csproj.CoreCompileInputs.cache
+C:\Users\Cipada\Documents\Softelligence\GraphicalApp\GraphicalApp.Circle\obj\Debug\netcoreapp2.0\GraphicalApp.Circle.AssemblyInfoInputs.cache
+C:\Users\Cipada\Documents\Softelligence\GraphicalApp\GraphicalApp.Circle\obj\Debug\netcoreapp2.0\GraphicalApp.Circle.AssemblyInfo.cs
+C:\Users\Cipada\Documents\Softelligence\GraphicalApp\GraphicalApp.Circle\obj\Debug\netcoreapp2.0\GraphicalApp.Circle.csproj.CopyComplete
+C:\Users\Cipada\Documents\Softelligence\GraphicalApp\GraphicalApp.Circle\obj\Debug\netcoreapp2.0\GraphicalApp.Circle.dll
+C:\Users\Cipada\Documents\Softelligence\GraphicalApp\GraphicalApp.Circle\obj\Debug\netcoreapp2.0\GraphicalApp.Circle.pdb

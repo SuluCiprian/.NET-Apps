@@ -9,3 +9,15 @@ C:\Users\ciprian.sulu\source\repos\GraphicalApp\GraphicalApp.Square\obj\Debug\ne
 C:\Users\ciprian.sulu\source\repos\GraphicalApp\GraphicalApp.Square\obj\Debug\netcoreapp2.0\GraphicalApp.Square.dll
 C:\Users\ciprian.sulu\source\repos\GraphicalApp\GraphicalApp.Square\obj\Debug\netcoreapp2.0\GraphicalApp.Square.pdb
 C:\Users\ciprian.sulu\source\repos\GraphicalApp\GraphicalApp.Square\obj\Debug\netcoreapp2.0\GraphicalApp.Square.csprojResolveAssemblyReference.cache
+C:\Users\Cipada\Documents\Softelligence\GraphicalApp\GraphicalApp.Square\bin\Debug\netcoreapp2.0\GraphicalApp.Square.deps.json
+C:\Users\Cipada\Documents\Softelligence\GraphicalApp\GraphicalApp.Square\bin\Debug\netcoreapp2.0\GraphicalApp.Square.dll
+C:\Users\Cipada\Documents\Softelligence\GraphicalApp\GraphicalApp.Square\bin\Debug\netcoreapp2.0\GraphicalApp.Square.pdb
+C:\Users\Cipada\Documents\Softelligence\GraphicalApp\GraphicalApp.Square\bin\Debug\netcoreapp2.0\GraphicalApp.Shared.dll
+C:\Users\Cipada\Documents\Softelligence\GraphicalApp\GraphicalApp.Square\bin\Debug\netcoreapp2.0\GraphicalApp.Shared.pdb
+C:\Users\Cipada\Documents\Softelligence\GraphicalApp\GraphicalApp.Square\obj\Debug\netcoreapp2.0\GraphicalApp.Square.csprojResolveAssemblyReference.cache
+C:\Users\Cipada\Documents\Softelligence\GraphicalApp\GraphicalApp.Square\obj\Debug\netcoreapp2.0\GraphicalApp.Square.csproj.CoreCompileInputs.cache
+C:\Users\Cipada\Documents\Softelligence\GraphicalApp\GraphicalApp.Square\obj\Debug\netcoreapp2.0\GraphicalApp.Square.AssemblyInfoInputs.cache
+C:\Users\Cipada\Documents\Softelligence\GraphicalApp\GraphicalApp.Square\obj\Debug\netcoreapp2.0\GraphicalApp.Square.AssemblyInfo.cs
+C:\Users\Cipada\Documents\Softelligence\GraphicalApp\GraphicalApp.Square\obj\Debug\netcoreapp2.0\GraphicalApp.Square.csproj.CopyComplete
+C:\Users\Cipada\Documents\Softelligence\GraphicalApp\GraphicalApp.Square\obj\Debug\netcoreapp2.0\GraphicalApp.Square.dll
+C:\Users\Cipada\Documents\Softelligence\GraphicalApp\GraphicalApp.Square\obj\Debug\netcoreapp2.0\GraphicalApp.Square.pdb

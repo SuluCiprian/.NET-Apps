@@ -9,6 +9,13 @@ namespace GraphicalApp
     {
         private List<IShape> shapesOnCanvas = new List<IShape>();
         private int identifier = 0;
+        public List<IShape> ShapesOnCanvas
+        {
+            get
+            {
+                return shapesOnCanvas;
+            }
+        }
 
         public void AddShape(IShape shape)
         {

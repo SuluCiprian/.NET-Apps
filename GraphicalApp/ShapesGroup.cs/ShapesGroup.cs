@@ -3,37 +3,53 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace GraphicalApp
+namespace GraphicalApp.ShapesGroup
 {
-    class ShapesGroup: IShape
+    public class ShapesGroup: IShape
     {
-        private string name;
+        private string name = "ShapesGroup";
         private int identifier;
-        private List<IShape> groupShpes = new List<IShape>();
-
-        public ShapesGroup(string name)
+        private List<IShape> groupShapes = new List<IShape>();
+        public List<IShape> GroupSahpes
         {
-            this.name = name;
+            get
+            {
+                return groupShapes;
+            }
         }
-
+        public string Name
+        {
+            get
+            {
+                return name;
+            }
+        }
         public int Identifier { get => identifier; set => identifier = value; }
 
         public void AddToGroup(IShape shape)
         {
-            groupShpes.Add(shape);
+            groupShapes.Add(shape);
         }
+        
 
         public double Area()
         {
-            return 0;
+            double totalArea = 0;
+            foreach (var shape in groupShapes)
+            {
+                totalArea += shape.Area();
+            }
+            return totalArea;
         }
 
         public void Draw()
         {
-            foreach (var shape in groupShpes)
+            Console.WriteLine(name);
+            foreach (var shape in groupShapes)
             {
                 shape.Draw();
             }
+            Console.WriteLine("Total area: " + Area());
         }
 
     }
