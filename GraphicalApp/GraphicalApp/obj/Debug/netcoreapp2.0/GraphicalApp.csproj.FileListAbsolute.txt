@@ -1,0 +1,13 @@
+C:\Users\ciprian.sulu\source\repos\GraphicalApp\GraphicalApp\bin\Debug\netcoreapp2.0\GraphicalApp.deps.json
+C:\Users\ciprian.sulu\source\repos\GraphicalApp\GraphicalApp\bin\Debug\netcoreapp2.0\GraphicalApp.runtimeconfig.json
+C:\Users\ciprian.sulu\source\repos\GraphicalApp\GraphicalApp\bin\Debug\netcoreapp2.0\GraphicalApp.runtimeconfig.dev.json
+C:\Users\ciprian.sulu\source\repos\GraphicalApp\GraphicalApp\bin\Debug\netcoreapp2.0\GraphicalApp.dll
+C:\Users\ciprian.sulu\source\repos\GraphicalApp\GraphicalApp\bin\Debug\netcoreapp2.0\GraphicalApp.pdb
+C:\Users\ciprian.sulu\source\repos\GraphicalApp\GraphicalApp\bin\Debug\netcoreapp2.0\GraphicalApp.Shared.dll
+C:\Users\ciprian.sulu\source\repos\GraphicalApp\GraphicalApp\bin\Debug\netcoreapp2.0\GraphicalApp.Shared.pdb
+C:\Users\ciprian.sulu\source\repos\GraphicalApp\GraphicalApp\obj\Debug\netcoreapp2.0\GraphicalApp.csprojResolveAssemblyReference.cache
+C:\Users\ciprian.sulu\source\repos\GraphicalApp\GraphicalApp\obj\Debug\netcoreapp2.0\GraphicalApp.csproj.CoreCompileInputs.cache
+C:\Users\ciprian.sulu\source\repos\GraphicalApp\GraphicalApp\obj\Debug\netcoreapp2.0\GraphicalApp.AssemblyInfoInputs.cache
+C:\Users\ciprian.sulu\source\repos\GraphicalApp\GraphicalApp\obj\Debug\netcoreapp2.0\GraphicalApp.AssemblyInfo.cs
+C:\Users\ciprian.sulu\source\repos\GraphicalApp\GraphicalApp\obj\Debug\netcoreapp2.0\GraphicalApp.dll
+C:\Users\ciprian.sulu\source\repos\GraphicalApp\GraphicalApp\obj\Debug\netcoreapp2.0\GraphicalApp.pdb
