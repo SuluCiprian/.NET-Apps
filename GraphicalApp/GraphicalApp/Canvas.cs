@@ -23,6 +23,11 @@ namespace GraphicalApp
             shapesOnCanvas.Add(shape);
         }
 
+        public void RemoveShape(IShape shape)
+        {
+            ShapesOnCanvas.Remove(shape);
+        }
+
         public void DrawShapes()
         {
             foreach (var shape in shapesOnCanvas)

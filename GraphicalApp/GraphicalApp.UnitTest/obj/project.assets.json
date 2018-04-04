@@ -1601,6 +1601,20 @@
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
       },
+      "GraphicalApp/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "GraphicalApp.Shared": "1.0.0",
+          "Microsoft.NETCore.App": "2.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GraphicalApp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GraphicalApp.dll": {}
+        }
+      },
       "GraphicalApp.Circle/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
@@ -5647,6 +5661,11 @@
         "system.xml.xpath.xmldocument.nuspec"
       ]
     },
+    "GraphicalApp/1.0.0": {
+      "type": "project",
+      "path": "../GraphicalApp/GraphicalApp.csproj",
+      "msbuildProject": "../GraphicalApp/GraphicalApp.csproj"
+    },
     "GraphicalApp.Circle/1.0.0": {
       "type": "project",
       "path": "../GraphicalApp.Circle/GraphicalApp.Circle.csproj",
@@ -5665,6 +5684,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "GraphicalApp >= 1.0.0",
       "GraphicalApp.Circle >= 1.0.0",
       "GraphicalApp.Square >= 1.0.0",
       "MSTest.TestAdapter >= 1.1.18",
@@ -5674,26 +5694,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ciprian.sulu\\.nuget\\packages\\": {},
+    "C:\\Users\\Cipada\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
-      "projectUniqueName": "C:\\Users\\ciprian.sulu\\Documents\\Apps\\GraphicalApp\\GraphicalApp.UnitTest\\GraphicalApp.UnitTest.csproj",
+      "projectUniqueName": "C:\\Users\\Cipada\\Documents\\.NET-Apps\\GraphicalApp\\GraphicalApp.UnitTest\\GraphicalApp.UnitTest.csproj",
       "projectName": "GraphicalApp.UnitTest",
-      "projectPath": "C:\\Users\\ciprian.sulu\\Documents\\Apps\\GraphicalApp\\GraphicalApp.UnitTest\\GraphicalApp.UnitTest.csproj",
-      "packagesPath": "C:\\Users\\ciprian.sulu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ciprian.sulu\\Documents\\Apps\\GraphicalApp\\GraphicalApp.UnitTest\\obj\\",
+      "projectPath": "C:\\Users\\Cipada\\Documents\\.NET-Apps\\GraphicalApp\\GraphicalApp.UnitTest\\GraphicalApp.UnitTest.csproj",
+      "packagesPath": "C:\\Users\\Cipada\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Cipada\\Documents\\.NET-Apps\\GraphicalApp\\GraphicalApp.UnitTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\ciprian.sulu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Cipada\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5706,11 +5723,14 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\ciprian.sulu\\Documents\\Apps\\GraphicalApp\\GraphicalApp.Circle\\GraphicalApp.Circle.csproj": {
-              "projectPath": "C:\\Users\\ciprian.sulu\\Documents\\Apps\\GraphicalApp\\GraphicalApp.Circle\\GraphicalApp.Circle.csproj"
+            "C:\\Users\\Cipada\\Documents\\.NET-Apps\\GraphicalApp\\GraphicalApp.Circle\\GraphicalApp.Circle.csproj": {
+              "projectPath": "C:\\Users\\Cipada\\Documents\\.NET-Apps\\GraphicalApp\\GraphicalApp.Circle\\GraphicalApp.Circle.csproj"
             },
-            "C:\\Users\\ciprian.sulu\\Documents\\Apps\\GraphicalApp\\GraphicalApp.Square\\GraphicalApp.Square.csproj": {
-              "projectPath": "C:\\Users\\ciprian.sulu\\Documents\\Apps\\GraphicalApp\\GraphicalApp.Square\\GraphicalApp.Square.csproj"
+            "C:\\Users\\Cipada\\Documents\\.NET-Apps\\GraphicalApp\\GraphicalApp.Square\\GraphicalApp.Square.csproj": {
+              "projectPath": "C:\\Users\\Cipada\\Documents\\.NET-Apps\\GraphicalApp\\GraphicalApp.Square\\GraphicalApp.Square.csproj"
+            },
+            "C:\\Users\\Cipada\\Documents\\.NET-Apps\\GraphicalApp\\GraphicalApp\\GraphicalApp.csproj": {
+              "projectPath": "C:\\Users\\Cipada\\Documents\\.NET-Apps\\GraphicalApp\\GraphicalApp\\GraphicalApp.csproj"
             }
           }
         }
@@ -5724,22 +5744,22 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "MSTest.TestFramework": {
-            "target": "Package",
-            "version": "1.1.18"
-          },
           "MSTest.TestAdapter": {
             "target": "Package",
-            "version": "1.1.18"
+            "version": "[1.1.18, )"
           },
-          "Microsoft.NETCore.App": {
+          "MSTest.TestFramework": {
             "target": "Package",
-            "version": "2.0.0",
-            "autoReferenced": true
+            "version": "[1.1.18, )"
           },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
-            "version": "15.3.0-preview-20170628-02"
+            "version": "[15.3.0-preview-20170628-02, )"
+          },
+          "Microsoft.NETCore.App": {
+            "target": "Package",
+            "version": "[2.0.0, )",
+            "autoReferenced": true
           }
         },
         "imports": [

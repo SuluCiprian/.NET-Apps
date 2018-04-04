@@ -40,3 +40,17 @@ C:\Users\ciprian.sulu\Documents\Apps\GraphicalApp\GraphicalApp\obj\Debug\netcore
 C:\Users\ciprian.sulu\Documents\Apps\GraphicalApp\GraphicalApp\obj\Debug\netcoreapp2.0\GraphicalApp.AssemblyInfo.cs
 C:\Users\ciprian.sulu\Documents\Apps\GraphicalApp\GraphicalApp\obj\Debug\netcoreapp2.0\GraphicalApp.dll
 C:\Users\ciprian.sulu\Documents\Apps\GraphicalApp\GraphicalApp\obj\Debug\netcoreapp2.0\GraphicalApp.pdb
+C:\Users\Cipada\Documents\.NET-Apps\GraphicalApp\GraphicalApp\bin\Debug\netcoreapp2.0\GraphicalApp.deps.json
+C:\Users\Cipada\Documents\.NET-Apps\GraphicalApp\GraphicalApp\bin\Debug\netcoreapp2.0\GraphicalApp.runtimeconfig.json
+C:\Users\Cipada\Documents\.NET-Apps\GraphicalApp\GraphicalApp\bin\Debug\netcoreapp2.0\GraphicalApp.runtimeconfig.dev.json
+C:\Users\Cipada\Documents\.NET-Apps\GraphicalApp\GraphicalApp\bin\Debug\netcoreapp2.0\GraphicalApp.dll
+C:\Users\Cipada\Documents\.NET-Apps\GraphicalApp\GraphicalApp\bin\Debug\netcoreapp2.0\GraphicalApp.pdb
+C:\Users\Cipada\Documents\.NET-Apps\GraphicalApp\GraphicalApp\bin\Debug\netcoreapp2.0\GraphicalApp.Shared.dll
+C:\Users\Cipada\Documents\.NET-Apps\GraphicalApp\GraphicalApp\bin\Debug\netcoreapp2.0\GraphicalApp.Shared.pdb
+C:\Users\Cipada\Documents\.NET-Apps\GraphicalApp\GraphicalApp\obj\Debug\netcoreapp2.0\GraphicalApp.csprojResolveAssemblyReference.cache
+C:\Users\Cipada\Documents\.NET-Apps\GraphicalApp\GraphicalApp\obj\Debug\netcoreapp2.0\GraphicalApp.csproj.CoreCompileInputs.cache
+C:\Users\Cipada\Documents\.NET-Apps\GraphicalApp\GraphicalApp\obj\Debug\netcoreapp2.0\GraphicalApp.AssemblyInfoInputs.cache
+C:\Users\Cipada\Documents\.NET-Apps\GraphicalApp\GraphicalApp\obj\Debug\netcoreapp2.0\GraphicalApp.AssemblyInfo.cs
+C:\Users\Cipada\Documents\.NET-Apps\GraphicalApp\GraphicalApp\obj\Debug\netcoreapp2.0\GraphicalApp.csproj.CopyComplete
+C:\Users\Cipada\Documents\.NET-Apps\GraphicalApp\GraphicalApp\obj\Debug\netcoreapp2.0\GraphicalApp.dll
+C:\Users\Cipada\Documents\.NET-Apps\GraphicalApp\GraphicalApp\obj\Debug\netcoreapp2.0\GraphicalApp.pdb

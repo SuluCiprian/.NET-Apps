@@ -5,7 +5,7 @@ using System.Text;
 
 namespace GraphicalApp.Square
 {
-    class Square: IShape
+    public class Square: IShape
     {
         private int identifier;
         private Point A;

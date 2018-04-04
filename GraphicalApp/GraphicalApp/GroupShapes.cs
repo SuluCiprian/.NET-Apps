@@ -5,7 +5,7 @@ using GraphicalApp.Shared;
 
 namespace GraphicalApp
 {
-    class GroupShapes: IShape
+    public class GroupShapes: IShape
     {
         private string groupName;
         private int identifier;
@@ -58,7 +58,7 @@ namespace GraphicalApp
 
         public void Draw()
         {
-            Console.WriteLine(groupName);
+            Console.WriteLine(groupName + " id: " + identifier);
             foreach (var shape in groupShapes)
             {
                 shape.Draw();

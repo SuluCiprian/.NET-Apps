@@ -15,6 +15,7 @@
   <ItemGroup>
     <ProjectReference Include="..\GraphicalApp.Circle\GraphicalApp.Circle.csproj" />
     <ProjectReference Include="..\GraphicalApp.Square\GraphicalApp.Square.csproj" />
+    <ProjectReference Include="..\GraphicalApp\GraphicalApp.csproj" />
   </ItemGroup>
 
 </Project>
