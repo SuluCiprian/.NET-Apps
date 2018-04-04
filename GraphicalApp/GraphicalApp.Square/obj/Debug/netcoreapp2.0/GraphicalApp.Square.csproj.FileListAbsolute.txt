@@ -21,3 +21,14 @@ C:\Users\Cipada\Documents\Softelligence\GraphicalApp\GraphicalApp.Square\obj\Deb
 C:\Users\Cipada\Documents\Softelligence\GraphicalApp\GraphicalApp.Square\obj\Debug\netcoreapp2.0\GraphicalApp.Square.csproj.CopyComplete
 C:\Users\Cipada\Documents\Softelligence\GraphicalApp\GraphicalApp.Square\obj\Debug\netcoreapp2.0\GraphicalApp.Square.dll
 C:\Users\Cipada\Documents\Softelligence\GraphicalApp\GraphicalApp.Square\obj\Debug\netcoreapp2.0\GraphicalApp.Square.pdb
+C:\Users\ciprian.sulu\Documents\Apps\GraphicalApp\GraphicalApp.Square\bin\Debug\netcoreapp2.0\GraphicalApp.Square.deps.json
+C:\Users\ciprian.sulu\Documents\Apps\GraphicalApp\GraphicalApp.Square\bin\Debug\netcoreapp2.0\GraphicalApp.Square.dll
+C:\Users\ciprian.sulu\Documents\Apps\GraphicalApp\GraphicalApp.Square\bin\Debug\netcoreapp2.0\GraphicalApp.Square.pdb
+C:\Users\ciprian.sulu\Documents\Apps\GraphicalApp\GraphicalApp.Square\bin\Debug\netcoreapp2.0\GraphicalApp.Shared.dll
+C:\Users\ciprian.sulu\Documents\Apps\GraphicalApp\GraphicalApp.Square\bin\Debug\netcoreapp2.0\GraphicalApp.Shared.pdb
+C:\Users\ciprian.sulu\Documents\Apps\GraphicalApp\GraphicalApp.Square\obj\Debug\netcoreapp2.0\GraphicalApp.Square.csprojResolveAssemblyReference.cache
+C:\Users\ciprian.sulu\Documents\Apps\GraphicalApp\GraphicalApp.Square\obj\Debug\netcoreapp2.0\GraphicalApp.Square.csproj.CoreCompileInputs.cache
+C:\Users\ciprian.sulu\Documents\Apps\GraphicalApp\GraphicalApp.Square\obj\Debug\netcoreapp2.0\GraphicalApp.Square.AssemblyInfoInputs.cache
+C:\Users\ciprian.sulu\Documents\Apps\GraphicalApp\GraphicalApp.Square\obj\Debug\netcoreapp2.0\GraphicalApp.Square.AssemblyInfo.cs
+C:\Users\ciprian.sulu\Documents\Apps\GraphicalApp\GraphicalApp.Square\obj\Debug\netcoreapp2.0\GraphicalApp.Square.dll
+C:\Users\ciprian.sulu\Documents\Apps\GraphicalApp\GraphicalApp.Square\obj\Debug\netcoreapp2.0\GraphicalApp.Square.pdb

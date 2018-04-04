@@ -197,19 +197,6 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "GraphicalApp.ShapesGroup/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.0",
-        "dependencies": {
-          "GraphicalApp.Shared": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/GraphicalApp.ShapesGroup.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/GraphicalApp.ShapesGroup.dll": {}
-        }
-      },
       "GraphicalApp.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
@@ -680,11 +667,6 @@
         "netstandard.library.nuspec"
       ]
     },
-    "GraphicalApp.ShapesGroup/1.0.0": {
-      "type": "project",
-      "path": "../ShapesGroup.cs/GraphicalApp.ShapesGroup.csproj",
-      "msbuildProject": "../ShapesGroup.cs/GraphicalApp.ShapesGroup.csproj"
-    },
     "GraphicalApp.Shared/1.0.0": {
       "type": "project",
       "path": "../GraphicalApp.Shared/GraphicalApp.Shared.csproj",
@@ -693,29 +675,31 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
-      "GraphicalApp.ShapesGroup >= 1.0.0",
       "GraphicalApp.Shared >= 1.0.0",
       "Microsoft.NETCore.App >= 2.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Cipada\\.nuget\\packages\\": {},
+    "C:\\Users\\ciprian.sulu\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Cipada\\Documents\\Softelligence\\GraphicalApp\\GraphicalApp\\GraphicalApp.csproj",
+      "projectUniqueName": "C:\\Users\\ciprian.sulu\\Documents\\Apps\\GraphicalApp\\GraphicalApp\\GraphicalApp.csproj",
       "projectName": "GraphicalApp",
-      "projectPath": "C:\\Users\\Cipada\\Documents\\Softelligence\\GraphicalApp\\GraphicalApp\\GraphicalApp.csproj",
-      "packagesPath": "C:\\Users\\Cipada\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Cipada\\Documents\\Softelligence\\GraphicalApp\\GraphicalApp\\obj\\",
+      "projectPath": "C:\\Users\\ciprian.sulu\\Documents\\Apps\\GraphicalApp\\GraphicalApp\\GraphicalApp.csproj",
+      "packagesPath": "C:\\Users\\ciprian.sulu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ciprian.sulu\\Documents\\Apps\\GraphicalApp\\GraphicalApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Cipada\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ciprian.sulu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -728,11 +712,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\Cipada\\Documents\\Softelligence\\GraphicalApp\\GraphicalApp.Shared\\GraphicalApp.Shared.csproj": {
-              "projectPath": "C:\\Users\\Cipada\\Documents\\Softelligence\\GraphicalApp\\GraphicalApp.Shared\\GraphicalApp.Shared.csproj"
-            },
-            "C:\\Users\\Cipada\\Documents\\Softelligence\\GraphicalApp\\ShapesGroup.cs\\GraphicalApp.ShapesGroup.csproj": {
-              "projectPath": "C:\\Users\\Cipada\\Documents\\Softelligence\\GraphicalApp\\ShapesGroup.cs\\GraphicalApp.ShapesGroup.csproj"
+            "C:\\Users\\ciprian.sulu\\Documents\\Apps\\GraphicalApp\\GraphicalApp.Shared\\GraphicalApp.Shared.csproj": {
+              "projectPath": "C:\\Users\\ciprian.sulu\\Documents\\Apps\\GraphicalApp\\GraphicalApp.Shared\\GraphicalApp.Shared.csproj"
             }
           }
         }
@@ -748,7 +729,7 @@
         "dependencies": {
           "Microsoft.NETCore.App": {
             "target": "Package",
-            "version": "[2.0.0, )",
+            "version": "2.0.0",
             "autoReferenced": true
           }
         },

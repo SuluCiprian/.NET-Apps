@@ -5,7 +5,7 @@ using System.Text;
 
 namespace GraphicalApp.Circle
 {
-    class Circle: IShape
+    public class Circle: IShape
     {
         private int identifier;
         private double radius;

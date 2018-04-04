@@ -38,10 +38,16 @@ namespace GraphicalApp.ShapesGroup
             name = args["name"];
             
         }
-        public void AddToGroup(IShape shape)
-        {
-            ShapesGroup group = (ShapesGroup)GetShape();
-            group.AddToGroup(shape);
-        }
+        //public void AddToGroup(IShape shape)
+        //{
+        //    ShapesGroup group = (ShapesGroup)GetShape();
+        //    group.AddToGroup(shape);
+        //}
+
+        //public List<IShape> GetGroupShapes()
+        //{
+        //    ShapesGroup group = (ShapesGroup)GetShape();
+        //    return group.GroupSahpes;
+        //}
     }
 }

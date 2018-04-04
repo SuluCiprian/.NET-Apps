@@ -10,3 +10,14 @@ C:\Users\Cipada\Documents\Softelligence\GraphicalApp\ShapesGroup.cs\obj\Debug\ne
 C:\Users\Cipada\Documents\Softelligence\GraphicalApp\ShapesGroup.cs\obj\Debug\netcoreapp2.0\GraphicalApp.ShapesGroup.csproj.CopyComplete
 C:\Users\Cipada\Documents\Softelligence\GraphicalApp\ShapesGroup.cs\obj\Debug\netcoreapp2.0\GraphicalApp.ShapesGroup.dll
 C:\Users\Cipada\Documents\Softelligence\GraphicalApp\ShapesGroup.cs\obj\Debug\netcoreapp2.0\GraphicalApp.ShapesGroup.pdb
+C:\Users\ciprian.sulu\Documents\Apps\GraphicalApp\ShapesGroup.cs\bin\Debug\netcoreapp2.0\GraphicalApp.ShapesGroup.deps.json
+C:\Users\ciprian.sulu\Documents\Apps\GraphicalApp\ShapesGroup.cs\bin\Debug\netcoreapp2.0\GraphicalApp.ShapesGroup.dll
+C:\Users\ciprian.sulu\Documents\Apps\GraphicalApp\ShapesGroup.cs\bin\Debug\netcoreapp2.0\GraphicalApp.ShapesGroup.pdb
+C:\Users\ciprian.sulu\Documents\Apps\GraphicalApp\ShapesGroup.cs\bin\Debug\netcoreapp2.0\GraphicalApp.Shared.dll
+C:\Users\ciprian.sulu\Documents\Apps\GraphicalApp\ShapesGroup.cs\bin\Debug\netcoreapp2.0\GraphicalApp.Shared.pdb
+C:\Users\ciprian.sulu\Documents\Apps\GraphicalApp\ShapesGroup.cs\obj\Debug\netcoreapp2.0\GraphicalApp.ShapesGroup.csprojResolveAssemblyReference.cache
+C:\Users\ciprian.sulu\Documents\Apps\GraphicalApp\ShapesGroup.cs\obj\Debug\netcoreapp2.0\GraphicalApp.ShapesGroup.csproj.CoreCompileInputs.cache
+C:\Users\ciprian.sulu\Documents\Apps\GraphicalApp\ShapesGroup.cs\obj\Debug\netcoreapp2.0\GraphicalApp.ShapesGroup.AssemblyInfoInputs.cache
+C:\Users\ciprian.sulu\Documents\Apps\GraphicalApp\ShapesGroup.cs\obj\Debug\netcoreapp2.0\GraphicalApp.ShapesGroup.AssemblyInfo.cs
+C:\Users\ciprian.sulu\Documents\Apps\GraphicalApp\ShapesGroup.cs\obj\Debug\netcoreapp2.0\GraphicalApp.ShapesGroup.dll
+C:\Users\ciprian.sulu\Documents\Apps\GraphicalApp\ShapesGroup.cs\obj\Debug\netcoreapp2.0\GraphicalApp.ShapesGroup.pdb

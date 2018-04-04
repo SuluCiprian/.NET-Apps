@@ -680,23 +680,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Cipada\\.nuget\\packages\\": {},
+    "C:\\Users\\ciprian.sulu\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Cipada\\Documents\\Softelligence\\GraphicalApp\\GraphicalApp.Circle\\GraphicalApp.Circle.csproj",
+      "projectUniqueName": "C:\\Users\\ciprian.sulu\\Documents\\Apps\\GraphicalApp\\GraphicalApp.Circle\\GraphicalApp.Circle.csproj",
       "projectName": "GraphicalApp.Circle",
-      "projectPath": "C:\\Users\\Cipada\\Documents\\Softelligence\\GraphicalApp\\GraphicalApp.Circle\\GraphicalApp.Circle.csproj",
-      "packagesPath": "C:\\Users\\Cipada\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Cipada\\Documents\\Softelligence\\GraphicalApp\\GraphicalApp.Circle\\obj\\",
+      "projectPath": "C:\\Users\\ciprian.sulu\\Documents\\Apps\\GraphicalApp\\GraphicalApp.Circle\\GraphicalApp.Circle.csproj",
+      "packagesPath": "C:\\Users\\ciprian.sulu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ciprian.sulu\\Documents\\Apps\\GraphicalApp\\GraphicalApp.Circle\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Cipada\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ciprian.sulu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -709,8 +712,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\Cipada\\Documents\\Softelligence\\GraphicalApp\\GraphicalApp.Shared\\GraphicalApp.Shared.csproj": {
-              "projectPath": "C:\\Users\\Cipada\\Documents\\Softelligence\\GraphicalApp\\GraphicalApp.Shared\\GraphicalApp.Shared.csproj"
+            "C:\\Users\\ciprian.sulu\\Documents\\Apps\\GraphicalApp\\GraphicalApp.Shared\\GraphicalApp.Shared.csproj": {
+              "projectPath": "C:\\Users\\ciprian.sulu\\Documents\\Apps\\GraphicalApp\\GraphicalApp.Shared\\GraphicalApp.Shared.csproj"
             }
           }
         }
@@ -727,7 +730,7 @@
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[2.0.0, )",
+            "version": "2.0.0",
             "autoReferenced": true
           }
         },

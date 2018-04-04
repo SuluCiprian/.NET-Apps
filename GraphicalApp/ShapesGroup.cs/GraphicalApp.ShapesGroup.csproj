@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="copy $(TargetPath) E:\GraphicalApp\" />
+    <Exec Command="copy $(TargetPath) D:\GraphicalApp\" />
   </Target>
 
 </Project>

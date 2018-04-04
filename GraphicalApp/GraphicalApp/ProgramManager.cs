@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Text;
 using GraphicalApp.Shared;
-using GraphicalApp.ShapesGroup;
 
 namespace GraphicalApp
 {
@@ -37,14 +36,17 @@ namespace GraphicalApp
 
         public void Initialize()
         {
-            shapesPluginManager.LoadPlugins(@"E:\GraphicalApp");
+            shapesPluginManager.LoadPlugins(@"D:\GraphicalApp");
             char optionNo = '1';
             foreach (var shapePlugin in shapesPluginManager.Plugins)
             {
                 consoleMenu.AddItem(new MenuItem { ShortcutChar = optionNo, Text = shapePlugin.GetName(), ContextObject = shapePlugin, ItemAction = new MenuItemAction(Action) });
                 optionNo++;
             }
-            consoleMenu.AddItem(new MenuItem { ShortcutChar = optionNo, Text = "Add to group", ContextObject = new ShapesGroupPlugin(), ItemAction = new MenuItemAction(AddAction) });
+            
+            consoleMenu.AddItem(new MenuItem { ShortcutChar = optionNo, Text = "Add to group", ContextObject = new GroupShapes(), ItemAction = new MenuItemAction(AddAction) });
+            optionNo++;
+            consoleMenu.AddItem(new MenuItem { ShortcutChar = optionNo, Text = "Add group", ContextObject = new GroupShapes(), ItemAction = new MenuItemAction(GroupAction) });
         }
 
         public void RunApp()
@@ -63,20 +65,50 @@ namespace GraphicalApp
             Console.ReadKey();
         }
 
+        public void GroupAction(object sender, object contextObject)
+        {
+            GroupShapes group = (GroupShapes)contextObject;
+            Console.WriteLine("Identifier: ");
+            group.Identifier = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("Group name:");
+            group.GroupName = Console.ReadLine();
+
+            canvas.AddShape(group);
+            Console.WriteLine("Shapes on canvas:");
+            canvas.DrawShapes();
+            Console.ReadKey();
+
+
+        }
+
         public void AddAction(object sender, object contextObject)
         {
-            ShapesGroupPlugin shapePlugin = (ShapesGroupPlugin)contextObject;
-            HandlePluginParameters(shapePlugin);
-            IShape shape = shapePlugin.GetShape();
-            
-            foreach (var item in canvas.ShapesOnCanvas)
+            GroupShapes group = (GroupShapes)contextObject;
+            Console.WriteLine("Identifier: ");
+            group.Identifier = Int32.Parse(Console.ReadLine());
+            //Console.WriteLine("Group name:");
+            //group.GroupName = Console.ReadLine();
+
+            Console.WriteLine("Insert the id of shape: ");
+            int id = Int32.Parse(Console.ReadLine());
+
+            foreach (var canvasShape in canvas.ShapesOnCanvas)
             {
-                if (item.Identifier == shape.Identifier)
+               
+                if (canvasShape.Identifier == group.Identifier)
                 {
-                    shapePlugin.AddToGroup(item);
-                    break;
+                    foreach (var item in canvas.ShapesOnCanvas)
+                    {
+                        if (item.Identifier == id)
+                        {
+                            group.AddToGroup(item);
+                            break;
+                        }
+                    }
                 }
             }
+
+            
         }
     }
 }
