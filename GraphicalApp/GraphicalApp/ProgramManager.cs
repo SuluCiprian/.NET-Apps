@@ -36,7 +36,7 @@ namespace GraphicalApp
 
         public void Initialize()
         {
-            shapesPluginManager.LoadPlugins(@"E:\GraphicalApp");
+            shapesPluginManager.LoadPlugins(@"D:\GraphicalApp");
             char optionNo = '1';
             foreach (var shapePlugin in shapesPluginManager.Plugins)
             {
@@ -71,8 +71,6 @@ namespace GraphicalApp
         {
             //GroupShapes group = (GroupShapes)contextObject;
             GroupShapes group = new GroupShapes();
-            //Console.WriteLine("Identifier: ");
-            //group.Identifier = Int32.Parse(Console.ReadLine());
             Console.WriteLine("Group name:");
             group.GroupName = Console.ReadLine();
 
@@ -97,26 +95,8 @@ namespace GraphicalApp
 
             Console.WriteLine("Insert the id of shape: ");
             int id = Int32.Parse(Console.ReadLine());
-
-            foreach (var canvasShape in canvas.ShapesOnCanvas.ToArray())
-            {
-               
-                if (canvasShape.Identifier == group.Identifier)
-                {
-                    foreach (var item in canvas.ShapesOnCanvas)
-                    {
-                        if (item.Identifier == id)
-                        {
-                            GroupShapes groupShape = (GroupShapes)canvasShape;
-                            groupShape.AddToGroup(item);
-                            canvas.RemoveShape(item);
-                            break;
-                        }
-                    }
-                }
-            }
-
-            
+            canvas.AddShapeToGroup(id, group.Identifier);
+          
         }
     }
 }
